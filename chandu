@@ -1,0 +1,32 @@
+Here are some sample code snippets in different programming languages for common tasks:
+
+1. C: Print "Hello, World!"
+Copy code
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+2. Python: Calculate the Factorial of a Number
+Copy code
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+number = 5
+print(f"Factorial of {number} is {factorial(number)}")
+
+3. JavaScript: Reverse a String
+Copy code
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+let input = "Hello";
+console.log(`Reversed: ${reverseString(input)}`);
+
+
+Let me know if you'd like examples in a specific language or for a particular task! 😊
